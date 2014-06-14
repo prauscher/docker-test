@@ -1,3 +1,3 @@
 FROM ubuntu:latest
 	RUN apt-get install -y sl
-	ENTRY while true; do sl; done
+	ENTRYPOINT while true; do sl; done
